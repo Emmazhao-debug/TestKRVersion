@@ -1,0 +1,178 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "4,2": "Open",
+    "4,11": "Export",
+    "5,2": "Page Report",
+    "5,11": "Page Report",
+    "8,2": "RDL Report",
+    "8,11": "RDL Report"
+  },
+  "AttachInfos": {
+    "1,2": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "ShowCircleUserPicture": true,
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
+    },
+    "5,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+            "SessionGuid": "7b588d4a-f701-4b49-a777-2be79a83d8f3",
+            "SideBarPosition": 0,
+            "OpenReportName": "보고서1"
+          }
+        ],
+        "Text": "Page Report",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "5,11": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportActiveReportCommand, ServerDesignerCommon",
+            "CustomName": "보고서1",
+            "ExportReportNameList": [
+              "보고서1"
+            ],
+            "IsPageBreakBefores": [
+              false
+            ],
+            "ReportGaps": [
+              "0cm"
+            ]
+          }
+        ],
+        "Text": "Page Report",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "8,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+            "SessionGuid": "00ac13cb-5fa9-47de-8605-050b8130ef16",
+            "SideBarPosition": 0,
+            "OpenReportName": "보고서2"
+          }
+        ],
+        "Text": "RDL Report",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "8,11": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportActiveReportCommand, ServerDesignerCommon",
+            "CustomName": "보고서2",
+            "ExportReportNameList": [
+              "보고서2"
+            ],
+            "IsPageBreakBefores": [
+              false
+            ],
+            "ReportGaps": [
+              "0cm"
+            ]
+          }
+        ],
+        "Text": "RDL Report",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Formatter": 1
+      },
+      {
+        "FontFamily": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "5,11": 0,
+      "5,12": 1,
+      "5,13": 1,
+      "5,14": 1,
+      "5,15": 1,
+      "5,16": 1,
+      "5,17": 1,
+      "6,11": 1,
+      "6,12": 1,
+      "6,13": 1,
+      "6,14": 1,
+      "6,15": 1,
+      "6,16": 1,
+      "6,17": 1,
+      "7,11": 1,
+      "7,12": 1,
+      "7,13": 1,
+      "7,14": 1,
+      "7,15": 1,
+      "7,16": 1,
+      "7,17": 1,
+      "8,11": 0,
+      "8,12": 1,
+      "8,13": 1,
+      "8,14": 1,
+      "8,15": 1,
+      "8,16": 1,
+      "8,17": 1,
+      "9,11": 1,
+      "9,12": 1,
+      "9,13": 1,
+      "9,14": 1,
+      "9,15": 1,
+      "9,16": 1,
+      "9,17": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,2,3,17",
+    "5,2,2,7",
+    "8,2,2,7",
+    "5,11,2,7",
+    "8,11,2,7"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//OusTG6e5RtXZmrvNfwqT5ZRYQ8d5tlbdg5xK2EPVUqmmq0Mx0s/X0I9T/HREdbxFCMaNNFA5o0d+Us2UlMxlkjE2FOT+5oCTioGaZvJdzRSqABJobQuM/SUL3nhpauDZVFj9hEZ1SkyAaFSeNxjbKjOE2usFMlMCryOOzcrfhjwVitIatfrv6RVz2iyFWrc/A0LoAvEhBXXt54PxGNYiKhoyddOgp3Z3OvrdwTSDCDofSUZisanQ+8nM1kSy1QU69tJ1QAacyAqeuCHovFM2g7cN1v+ZIviJEJuqcXxa/7HTCQtn4ylUVPOWrGu5Uy+Bq+tzSW3+Yu75XBmsnkeI0ToUiKD/CrDankkP7LClFAfeFvzH3XWcuZLMbfBmwGZZqgoiIT83Bt87hGEfd8fj/PplxN5d2kNIOMkvEyT+sDKP1wcvE2zPhkNYOx/8HM6k7ia8O3Ls9oa6tE9cLH2oCVwBKhfF447fFXmY4sqPNiBE4rMpMdm9bpT3fHBIOJbkJnu5HWX5tLiZr5QWhfB3WEc5h05NREW5oJoM8oMQaRE6ftdHX//51sobI/KrItLIk/l0JT1gjwvazhUKDSndWiP8euS9G5tUMsekNXTSHdregRZAZpeoT0ItY3KR96iOcxXnzHsr8lI3CUhKvBreT9HUPSVl/q1DgEmANRKbn7Z0v8Eb2QROaEFXpd+7QEr+rt0xIXo6Ib8uCXui8mMKKRgqguCHJ3zJ12De53nb0Hk1Wkrz5ZBNpNhTs3BT5Bv8D4BbGu/QEwG1mcAnLrBu80xOpaaQKLaxirET/11TpAe9asNpnu0r5MANtCiA3TR1ms+9AaP9iZNZTvUKV+65qcChuHJNEKuJhPGe/Cx8oRswnA4wTBKkW4sZ1oDyH6lYrvJ8XDdxOmcV3Awh8jZfqA==|920

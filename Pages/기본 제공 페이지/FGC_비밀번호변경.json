@@ -1,0 +1,249 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 7.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 7.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 7.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 7.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 7.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 7.0
+        }
+      }
+    },
+    "Count": 30
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
+    },
+    "Count": 47
+  },
+  "Values": {
+    "5,12": "비밀번호 변경",
+    "9,18": "*",
+    "10,17": "현재 비밀번호",
+    "13,18": "*",
+    "14,17": "새 비밀번호",
+    "17,18": "*",
+    "18,17": "새 암호를 확인하십시오.",
+    "22,25": "비밀번호 변경",
+    "22,31": "취소"
+  },
+  "AttachInfos": {
+    "9,20": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "ShowPassword": true,
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "ForguncyAttribute": "ChangePassword_OldPassword"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "13,20": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "ShowPassword": true,
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "ForguncyAttribute": "ChangePassword_NewPassword"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "17,20": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "ShowPassword": true,
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "ForguncyAttribute": "ChangePassword_ConfirmPassword"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "22,25": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "비밀번호 변경",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Normal_Style2",
+        "ForguncyAttribute": "ChangePassword_Button"
+      }
+    },
+    "22,31": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "Text": "취소",
+        "TemplateKey": "_RS_Outline_Style2",
+        "ForguncyAttribute": "CancelChangePassword_Button"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 37.333332061767578,
+        "Foreground": 0
+      },
+      {
+        "Foreground": 1
+      },
+      {
+        "Formatter": 2
+      },
+      {
+        "FontSize": 14.0,
+        "Foreground": 3,
+        "HorizontalAlignment": 4
+      },
+      {
+        "FontSize": 14.0,
+        "FontWeight": 5
+      },
+      {
+        "FontSize": 14.0,
+        "FontWeight": 5,
+        "Foreground": 6,
+        "HorizontalAlignment": 7
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 25",
+        "#FFFF0000",
+        "@",
+        "Text 1 35",
+        "Right",
+        "Bold",
+        "Accent 1 0",
+        "Center",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "5,12": 0,
+      "9,18": 1,
+      "9,20": 2,
+      "10,17": 3,
+      "13,18": 1,
+      "13,20": 2,
+      "14,17": 3,
+      "17,18": 1,
+      "17,20": 2,
+      "18,17": 3,
+      "22,25": 4,
+      "22,31": 5
+    },
+    "SheetStyle": {
+      "FontFamily": 8,
+      "Underline": false,
+      "Strikethrough": false
+    }
+  },
+  "Spans": [
+    "5,12,3,23",
+    "22,25,2,6",
+    "22,31,2,5",
+    "17,20,3,15",
+    "13,20,3,15",
+    "9,20,3,15",
+    "9,18,2,1",
+    "13,18,2,1",
+    "17,18,2,1"
+  ],
+  "BackgroundPictures": [
+    {
+      "StyleInfo": {
+        "Fill": "Background 1 -5",
+        "Stroke": "Background 1 -25",
+        "StrokeThickness": 1.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "97a1df71-4c5e-45ca-8c9d-75cfbc4c5568.png",
+      "Location": "200,80",
+      "Size": "540,360"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "FGC_유저마스터페이지",
+    "MobilePageName": "FGC_비밀번호변경_모바일",
+    "Title": "비밀번호 변경",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//mC6PPJZHngeTTZQODJ4qQAuj63zkjRzbA8edDOuTTb7rjm5YAdKgoo2FbOBq+D7CfO4F5dend6pgvEX+u4uFAq9+LPOOW4YeFQhOExaEzYPqIf1b2riajvo2E8OQIugtN9ep+Ttqd9cmQhT7RJNjab+Fne3xlV5/MJ20raHXsgOo8rRnFFPfw6SVwVpzviq3MUq8/LOpllBB9yESX9RXDZSP2ePXaqOcYgS1RxO9vpUM0zGsU7juYIV/rmwV4j56FRSwX9B4DXIsIZZbzzDjApuil3eoo5BArI05bZQDbk6wS6V77bQIFCK9Ph5UrGkxEPtgF+qYfs+n1QyF7K0BfiyR3k8HLoYJavu9nGj5wNo10dvIVmEi0zyDi5jXWEWoGvfC5ejT7EfuFyZI7DqsBOpoFgd4x9+C1LLEbgPgRrw4N2tvkY/N3M+L6RIUpHICchffNN1wKwnCkqsdr0IIbCMF1oOZb2JFzYU2IDsWYWBDIrFwj5LfINq+3ap8deFGiGvrvjTfKxoBPOpIWP3Bel9nhihM44CaUtomnFztzIhX9F09ZPgthviXBl4h39x7gdN0vz7M8nM9POban6f8qNAMQMmFYr3Am2dHh/ckiWbTeny8aQUdu24EfjZIuzamrcJ/tGnsb4FetdjE4iB22LUszWwFqriU45oCzcjYfip9PksYcqd+8bsC2MQvNx2aJyR1mhKHohMmXN8POBUNiyojA6fpRSrkELyGjTJFheKwMLu8yfVa0UN7L9chEIKEq2hp9uL5nU6iHVGv64qqXpOuGiFK7up7aD6Tdk7HevelYqNorS5GFsM5i/VOl6OAsVpJsNAKuwxL3veXWk9wnU4ekl4wgk/3svEeiAr68lcxxQzanzsLw2cFLdRXLWqXzdWqwesLJM3pzIL8If6ezQ==|920

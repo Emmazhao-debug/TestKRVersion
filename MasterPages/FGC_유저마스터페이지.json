@@ -1,0 +1,64 @@
+{
+  "Rows": {
+    "Count": 38
+  },
+  "Cols": {
+    "Count": 55
+  },
+  "Values": {
+    "30,4": "이 페이지는 Forguncy의 내장 페이지입니다. 필요하신 내용에 맞추어 변경 및 수정 가능합니다."
+  },
+  "AttachInfos": {
+    "4,4": {
+      "IsPlaceHolderCell": true
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 12.0,
+        "Foreground": 0,
+        "HorizontalAlignment": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 50",
+        "Center",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "30,4": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 2,
+      "Underline": false,
+      "Strikethrough": false
+    }
+  },
+  "Spans": [
+    "4,4,26,47",
+    "30,4,2,47"
+  ],
+  "BackgroundPictures": [
+    {
+      "StyleInfo": {
+        "Fill": "Accent 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Name": "9d382752-f3ea-48a3-bb53-d6d47ed4c55a.png",
+      "Location": "80,0",
+      "Size": "940,60"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
+    "PageLoadedCommandList": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}///+9XUNKB/tbG9BDhoYqFQMLNRM0PHq/vUVbJBYxBbXFTINlBLiWie/tX9rhO7AQzU9rpkuVrjOj+ASPcUzpMADaHNHcBrxt8LMNSj8oMTIeWcRDV0Ww1ABOjcRG9+FcIjiN2d6JLMJUf6goLp973/9xbPNv/xw4WTsvB3ha/rnKyjQDer6mid6MogKbRwkuckl//AYlHIpplEtbVaW8Y05Arenxf4Mj0k8mB8XMJDAzci0C9c6BpqocOuetaZGp5NbPXIqeXhPKilIPo5bhRmIF2M6BQz2MU40a8ZQ8Je9KfZ/JKi4i1lsdoqhH4nIldBR1QQd/s9Jt7fOKS2GVyD1A+p8wRM9UO0N6yHIPkiu/OLnFqgaBOd8M2xOF/mUcXaqOBnWFn8+JGVNvt5qyLtABsVhaQP1E0rdhqp8J2wmUJFp7Myz9p5AZt3lqIFJY5uLaJX/C3+E1GryGx1GPDLu73OHz86lH6pwCDGcM/80fEah3DdW6U4y7SgzorryB82FMYI/yLXYmugtfBHzSKkbsa3JrqQYciEhKGM4f64zgoF4UvBFPoX8u3EL0zqIpm9SBwbhfAcmfXvvY3NZ569d7RsNozayb+rWZbCdk9NgddVEoKkzVBIcKjsisqO4JK+wPEHMx54busdt0iwDdLKe11DEoTm/aaKI4akSwvn2qiGrTdnNkWUXfg9HaDJWFXc6xdaOW1CKiKhVLuZKvKK5D2Y2e4+3Bd++WmsOJPUpImAqTGjuavZPkVYRP+VvI+7ZLyr6vh9M8Z4CtBq8TKuqVJqisHglgKHUKSG1RTu2melQOQFj+ZuqPprO4fnf5CwltLOs9J0ATICIIit70fPZmVDtgIwlzFPpiCxQUCHad8H1GcLGVrII8F0PlwrcF6PpUfy1f6xDX6NXvx9t3T0w==|920
